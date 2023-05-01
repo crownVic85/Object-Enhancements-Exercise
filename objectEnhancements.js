@@ -5,7 +5,12 @@ function createInstructor(firstName, lastName){
     }
   }
 /* Write an ES2015 Version */
-const createInstructor = (firstName, lastName) => ({firstName, lastName});
+function createInstructor (firstName, lastName) {
+    return{
+        firstName, 
+        lastName
+    }
+}    
 
 var favoriteNumber = 42;
 
@@ -16,6 +21,8 @@ var instructor = {
 instructor[favoriteNumber] = "That is my favorite!"
 
 /* Write an ES2015 Version */
+const favoriteNumber = 42;
+const instructor = {
 
 var instructor = {
     firstName: "Colt",
