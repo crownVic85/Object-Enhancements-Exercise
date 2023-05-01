@@ -5,6 +5,7 @@ function createInstructor(firstName, lastName){
     }
   }
 /* Write an ES2015 Version */
+const createInstructor = (firstName, lastName) => ({firstName, lastName});
 
 var favoriteNumber = 42;
 
