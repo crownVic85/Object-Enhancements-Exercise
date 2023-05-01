@@ -21,8 +21,11 @@ var instructor = {
 instructor[favoriteNumber] = "That is my favorite!"
 
 /* Write an ES2015 Version */
-const favoriteNumber = 42;
+let favoriteNumber = 42;
 const instructor = {
+    firstName: "Colt",
+    [favoriteNumber]: "That is my favorite!"
+}
 
 var instructor = {
     firstName: "Colt",
