@@ -38,6 +38,15 @@ var instructor = {
   }
 
 /* Write an ES2015 Version */
+const instructor = {
+    firstName: "Colt",
+    sayHi(){
+        return "Hi!";
+    },
+    sayBye(){
+        return this.firstName + " says bye!";
+    }
+}
 
 const d = createAnimal("dog", "bark", "Woooof!")
 // {species: "dog", bark: ƒ}
